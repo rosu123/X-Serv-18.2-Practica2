@@ -7,4 +7,4 @@ class Pages(models.Model):
     page = models.TextField()
 
     def __str__(self):
-        return self.name
+        return str(self.id) + ". " + self.name
